@@ -86,5 +86,13 @@
     "keyblade": "^0.3.2",
     "yargs": "^14.2.0"
   },
-  "typings": "lib/yenv"
+  "typings": "lib/yenv",
+  "overrides": {
+    "ansi-regex": ">=4.1.1",
+    "y18n": ">=4.0.3"
+  },
+  "resolutions": {
+    "ansi-regex": ">=4.1.1",
+    "y18n": ">=4.0.3"
+  }
 }
