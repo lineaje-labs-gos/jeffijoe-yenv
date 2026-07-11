@@ -1,6 +1,6 @@
 {
   "name": "yenv",
-  "version": "2.0.1",
+  "version": "2.1.1-lineaje-01",
   "description": "Environment management using YAML.",
   "main": "lib/yenv.js",
   "engines": {
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffijoe/yenv.git"
+    "url": "https://github.com/lineaje-labs-gos/jeffijoe-yenv"
   },
   "keywords": [
     "env",
@@ -50,6 +50,12 @@
   ],
   "author": "Jeff Hansen <jeff@jeffijoe.com>",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/jeffijoe/yenv/issues"
   },
