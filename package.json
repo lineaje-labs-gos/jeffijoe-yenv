@@ -1,6 +1,6 @@
 {
   "name": "yenv",
-  "version": "2.1.1-lineaje-03-lineaje-03",
+  "version": "2.1.1-lineaje-03",
   "description": "Environment management using YAML.",
   "main": "lib/yenv.js",
   "engines": {
@@ -76,9 +76,17 @@
   "dependencies": {
     "coercer": "^1.1.2",
     "deep-extend": "^0.6.0",
-    "js-yaml": "^3.13.1",
+    "js-yaml": ">=3.15.2",
     "keyblade": "^0.3.2",
     "yargs": "^14.2.0"
   },
-  "typings": "lib/yenv"
+  "typings": "lib/yenv",
+  "overrides": {
+    "js-yaml": ">=3.15.2",
+    "ansi-regex": ">=4.1.1"
+  },
+  "resolutions": {
+    "js-yaml": ">=3.15.2",
+    "ansi-regex": ">=4.1.1"
+  }
 }
